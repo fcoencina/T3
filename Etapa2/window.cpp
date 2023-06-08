@@ -2,13 +2,13 @@
 
 Window::Window(){
 }
-Window::Window(int z){
-    magneticSensor.setSensorClose();
-    magneticSensor.setZone(z);
+Window::Window(MagneticSensor *mg){
+    mg->setSensorClose();
+    magneticSensor = mg;
 }
 void Window::changeState() {
-    if (magneticSensor.isClose())
-        magneticSensor.setSensorOpen();
+    if (magneticSensor->isClose())
+        magneticSensor->setSensorOpen();
     else
-        magneticSensor.setSensorClose();
+        magneticSensor->setSensorClose();
 }

@@ -8,13 +8,15 @@ SOURCES += \
         magnetic_sensor.cpp \
         main.cpp \
         sensor.cpp \
-        window.cpp
+        window.cpp \
+        central.cpp
 
 HEADERS += \
     door.h \
     magnetic_sensor.h \
     sensor.h \
-    window.h
+    window.h \
+    central.h
 
 DISTFILES += \
     config.txt

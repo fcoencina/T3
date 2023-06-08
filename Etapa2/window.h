@@ -6,10 +6,10 @@ class Window{
     private:
         Window(); // a window creation without sensor is not allowed.
     public:
-        Window(int zona);
+        Window(MagneticSensor *mg);
         void changeState();
     private:
-        MagneticSensor magneticSensor;
+        MagneticSensor *magneticSensor;
 };
 
 #endif // WINDOW_H

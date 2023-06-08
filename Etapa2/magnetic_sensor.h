@@ -4,7 +4,7 @@
 
 class MagneticSensor: public Sensor{
     public:
-        MagneticSensor();
+        MagneticSensor(int zone);
         void setSensorOpen();
         void setSensorClose();
 };

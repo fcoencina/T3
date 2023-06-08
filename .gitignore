@@ -1,3 +1,20 @@
 
 Etapa1/*.o
 Etapa2/*.o
+Etapa3/*.o
+Etapa4/*.o
+
+Etapa1/Makefile
+Etapa2/Makefile
+Etapa3/Makefile
+Etapa4/Makefile
+
+Etapa1/*.user
+Etapa2/*.user
+Etapa3/*.user
+Etapa4/*.user
+
+Etapa1/Etapa1
+Etapa2/Etapa2
+Etapa3/Etapa3
+Etapa4/Etapa4

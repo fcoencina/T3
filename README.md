@@ -15,7 +15,7 @@ Compilador C++ y Qtcreator
 ### Compilación:
  Para la compilación del programa tiene que:
   - Clonar el repositorio.
-  - En la terminal, en la ruta de la etapa, que desee compilar y ejecutar, del repositorio escribir `qmake EtapaN.pro`, con N el número de la etapa qn la que está, N = 1,2,3 o 4.
+  - En la terminal, en la ruta de la etapa, que desee compilar y ejecutar, del repositorio escribir `qmake EtapaN.pro`, con N el número de la etapa en la que está, con N = 1,2,3 o 4.
   - Luego `make`.
   - Finalmente `./EtapaN config.txt`.
 

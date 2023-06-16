@@ -1,6 +1,8 @@
  <h1 align="center"><b> README Tarea3_ELO329  </b></h1>
 <br>
 
+#Link al repositorio para la tarea 3: https://github.com/fcoencina/T3
+
 ## Grupo 1 - Paralelo 201
 ## Integrantes:
 - Francisco Encina 202030536-6
@@ -19,4 +21,4 @@ Compilador C++ y Qtcreator
   - Luego `make`.
   - Finalmente `./EtapaN config.txt`.
 
-Link al repositorio para la tarea 3: https://github.com/fcoencina/T3
+
